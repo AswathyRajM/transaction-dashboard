@@ -1,15 +1,15 @@
 import React from 'react';
-import data from '../../data/data.json';
-import { convertToK } from '../../helpers';
-import Card from '../Card/Card';
-import CardContent from '../CardContent/CardContent';
-import trendImg from '../../images/trend.png';
-import Table from '../Table/Table';
+import data from '../data/data.json';
+import { convertToK } from '../helpers';
+import Card from '../components/Card/Card';
+import CardContent from '../components/CardContent/CardContent';
+import Table from '../components/Table/Table';
+import trendImg from '../images/trend.png';
 
 const state = { totalAmount: 200000, previousCycle: 20000 };
 function Home() {
   return (
-    <div className='g-green-500 m-10 mt-2 mb-1 h-[calc(100vh-.5rem)] flex flex-col gap-4 '>
+    <div className='m-10 mt-2 mb-1 h-[calc(100vh-1rem)] flex flex-col gap-4 '>
       <div className='flex items-stretch gap-20 justify-between '>
         <Card bg>
           <div className='h-fit'>

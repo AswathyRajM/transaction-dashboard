@@ -7,6 +7,7 @@ module.exports = {
       lg: '.8rem',
       full: '9999px',
       DEFAULT: '4px',
+      xs: '4px',
     },
   },
   plugins: [],

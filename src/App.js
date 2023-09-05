@@ -1,16 +1,16 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Home from './components/pages/Home';
-import PageNotFound from './components/pages/PageNotFound';
-import TransactionDetails from './components/pages/TransactionDetails';
+import HomePage from './pages/Home';
+import TransactionDetailsPage from './pages/TransactionDetails';
+import PageNotFoundPage from './pages/PageNotFound';
 
 function App() {
   return (
     <div className='container'>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/transaction/:id' element={<TransactionDetails />} />
-        <Route path='*' element={<PageNotFound />} />
+        <Route path='/' element={<HomePage />} />
+        <Route path='/transaction/:id' element={<TransactionDetailsPage />} />
+        <Route path='*' element={<PageNotFoundPage />} />
       </Routes>
     </div>
   );

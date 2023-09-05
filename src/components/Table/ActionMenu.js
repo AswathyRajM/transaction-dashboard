@@ -3,7 +3,6 @@ import dotsImg from '../../images/dots.png';
 import { Menu, MenuItem } from '@mui/material';
 
 function ActionMenu(props) {
-  // console.log(props.invoice_no);
   const [anchorEl, setAnchorEl] = useState(null);
   const [isActionsMenuOpen, setIsActionsMenuOpen] = useState(false);
 

@@ -6,8 +6,8 @@ function Status(value) {
     if (value > i)
       cells.push(
         <>
-          <div className='flex flex-col items-center'>
-            <span className='w-14 h-1 mr-3 bg-slate-500' />
+          <div className='flex flex-col items-center  '>
+            <span className='w-14 h-1 mr-3 bg-slate-500 rounded-xs' />
             <div className='mr-3 text-xs font-medium mt-1'>
               {i === 0 ? 'First' : i === 1 ? 'Second' : 'Third'}
             </div>
@@ -16,8 +16,8 @@ function Status(value) {
       );
     else
       cells.push(
-        <div className='flex flex-col items-start'>
-          <span className='w-14 h-1 mr-3 bg-slate-200' />
+        <div className='flex flex-col items-start '>
+          <span className='w-14 h-1 mr-3 bg-slate-200  rounded-xs' />
           <div className='mr-3 text-xs font-medium mt-1'>&nbsp;</div>
         </div>
       );
