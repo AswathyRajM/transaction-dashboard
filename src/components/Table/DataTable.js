@@ -40,9 +40,8 @@ function DataTable({ getId, data, columns, isLoading }) {
         rows={data}
         columns={columns}
         initialState={{
-          pagination: { paginationModel: { pageSize: 25 } },
+          pagination: { paginationModel: { pageSize: 20 } },
         }}
-        loading={isLoading || !data.length}
       />
     </div>
   );

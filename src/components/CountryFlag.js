@@ -18,7 +18,7 @@ function CountryFlag(column, row) {
 
   return (
     <div className='flex flex-row gap-x-1'>
-      <img width={20} height={12} src={flag} alt={country} lazy />
+      <img width={20} height={12} src={flag} alt={country} />
       <p>{row[column].name}</p>
     </div>
   );

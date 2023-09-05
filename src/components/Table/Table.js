@@ -5,9 +5,8 @@ import ActionMenu from './ActionMenu';
 import CountryFlag from '../CountryFlag';
 import Status from '../Status';
 
-const usd = 10;
 const headerClass = 'h-30 bg-slate-100';
-function Table({ data }) {
+function Table({ data, usd }) {
   const columns = [
     {
       field: 'transaction_date',
@@ -65,7 +64,7 @@ function Table({ data }) {
       headerName: 'Amount',
       type: 'string',
       headerClassName: headerClass,
-      width: 130,
+      width: 140,
       valueFormatter: (params) => {
         if (params.value == null) {
           return '';
@@ -77,7 +76,7 @@ function Table({ data }) {
       headerName: 'USD Equivalent',
       type: 'string',
       headerClassName: headerClass,
-      width: 160,
+      width: 150,
       valueGetter: (params) => {
         if (params.row.amount == null) {
           return '';
@@ -88,7 +87,7 @@ function Table({ data }) {
         if (params.value == null) {
           return '';
         }
-        return '$' + (params.value * usd).toFixed(2);
+        return '$' + (params.value / usd).toFixed(2);
       },
     },
     {

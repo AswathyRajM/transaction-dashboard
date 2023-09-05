@@ -4,7 +4,7 @@
     "invoice_no": "c1prsvl",
     "payer": { "name": "Green Kaya Limited", "country": "us" },
     "payee": { "name": "Green Kaya Limited", "country": "ca" },
-    "amount": 48500,
+    "amount": 485000,
     "status": 2
   },
   {
@@ -12,7 +12,7 @@
     "invoice_no": "icegne8",
     "payer": { "name": "Green Kaya Limited", "country": "ind" },
     "payee": { "name": "Green Kaya Limited", "country": "au" },
-    "amount": 36000,
+    "amount": 360000,
     "status": 1
   },
   {
@@ -20,7 +20,7 @@
     "invoice_no": "fs6j4ma",
     "payer": { "name": "Green Kaya Limited", "country": "us" },
     "payee": { "name": "Green Kaya Limited", "country": "us" },
-    "amount": 46000,
+    "amount": 460000,
     "status": 3
   },
   {
@@ -28,7 +28,7 @@
     "invoice_no": "ykja24o",
     "payer": { "name": "Green Kaya Limited", "country": "us" },
     "payee": { "name": "Green Kaya Limited", "country": "au" },
-    "amount": 1000,
+    "amount": 10000,
     "status": 1
   },
   {
@@ -36,7 +36,7 @@
     "invoice_no": "9kykzol",
     "payer": { "name": "Green Kaya Limited", "country": "us" },
     "payee": { "name": "Green Kaya Limited", "country": "ca" },
-    "amount": 23500,
+    "amount": 235000,
     "status": 1
   },
   {
@@ -44,7 +44,7 @@
     "invoice_no": "paayk84",
     "payer": { "name": "Green Kaya Limited", "country": "ca" },
     "payee": { "name": "Green Kaya Limited", "country": "au" },
-    "amount": 21000,
+    "amount": 210000,
     "status": 3
   },
   {
@@ -52,7 +52,7 @@
     "invoice_no": "jq6yqqy",
     "payer": { "name": "Green Kaya Limited", "country": "ca" },
     "payee": { "name": "Green Kaya Limited", "country": "ind" },
-    "amount": 16000,
+    "amount": 160000,
     "status": 2
   },
   {
@@ -60,7 +60,7 @@
     "invoice_no": "psu48fv",
     "payer": { "name": "Green Kaya Limited", "country": "ind" },
     "payee": { "name": "Green Kaya Limited", "country": "ca" },
-    "amount": 48500,
+    "amount": 485000,
     "status": 2
   },
   {
@@ -68,7 +68,7 @@
     "invoice_no": "p3rkak5",
     "payer": { "name": "Green Kaya Limited", "country": "ca" },
     "payee": { "name": "Green Kaya Limited", "country": "ind" },
-    "amount": 48500,
+    "amount": 485000,
     "status": 1
   },
   {
@@ -76,7 +76,7 @@
     "invoice_no": "c7p0bwv",
     "payer": { "name": "Green Kaya Limited", "country": "ca" },
     "payee": { "name": "Green Kaya Limited", "country": "ca" },
-    "amount": 23500,
+    "amount": 235000,
     "status": 1
   },
   {
@@ -84,7 +84,7 @@
     "invoice_no": "cggo15s",
     "payer": { "name": "Green Kaya Limited", "country": "ind" },
     "payee": { "name": "Green Kaya Limited", "country": "us" },
-    "amount": 51000,
+    "amount": 510000,
     "status": 3
   },
   {
@@ -92,7 +92,7 @@
     "invoice_no": "48q2vui",
     "payer": { "name": "Green Kaya Limited", "country": "au" },
     "payee": { "name": "Green Kaya Limited", "country": "ind" },
-    "amount": 41000,
+    "amount": 410000,
     "status": 2
   },
   {
@@ -100,7 +100,7 @@
     "invoice_no": "6t29tb6",
     "payer": { "name": "Green Kaya Limited", "country": "us" },
     "payee": { "name": "Green Kaya Limited", "country": "ca" },
-    "amount": 28500,
+    "amount": 285000,
     "status": 1
   },
   {
@@ -108,7 +108,7 @@
     "invoice_no": "dk2ekzz",
     "payer": { "name": "Green Kaya Limited", "country": "ind" },
     "payee": { "name": "Green Kaya Limited", "country": "ca" },
-    "amount": 51000,
+    "amount": 510000,
     "status": 2
   },
   {
@@ -116,7 +116,7 @@
     "invoice_no": "zhws2b2",
     "payer": { "name": "Green Kaya Limited", "country": "us" },
     "payee": { "name": "Green Kaya Limited", "country": "ind" },
-    "amount": 38500,
+    "amount": 385000,
     "status": 3
   },
   {
@@ -124,7 +124,7 @@
     "invoice_no": "p1unwiy",
     "payer": { "name": "Green Kaya Limited", "country": "ca" },
     "payee": { "name": "Green Kaya Limited", "country": "us" },
-    "amount": 41000,
+    "amount": 410000,
     "status": 2
   },
   {
@@ -132,7 +132,7 @@
     "invoice_no": "64ymus0",
     "payer": { "name": "Green Kaya Limited", "country": "ind" },
     "payee": { "name": "Green Kaya Limited", "country": "us" },
-    "amount": 16000,
+    "amount": 160000,
     "status": 2
   },
   {
@@ -140,7 +140,7 @@
     "invoice_no": "ru6cdoz",
     "payer": { "name": "Green Kaya Limited", "country": "au" },
     "payee": { "name": "Green Kaya Limited", "country": "ca" },
-    "amount": 6000,
+    "amount": 60000,
     "status": 3
   },
   {
@@ -148,7 +148,7 @@
     "invoice_no": "vga3plg",
     "payer": { "name": "Green Kaya Limited", "country": "au" },
     "payee": { "name": "Green Kaya Limited", "country": "us" },
-    "amount": 31000,
+    "amount": 310000,
     "status": 2
   },
   {
@@ -156,7 +156,7 @@
     "invoice_no": "xxwx7x0",
     "payer": { "name": "Green Kaya Limited", "country": "ca" },
     "payee": { "name": "Green Kaya Limited", "country": "ind" },
-    "amount": 3500,
+    "amount": 35000,
     "status": 3
   }
 ]

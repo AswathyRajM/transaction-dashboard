@@ -9,9 +9,15 @@ import {
 import React, { useEffect } from 'react';
 import { getIn, useFormik } from 'formik';
 import * as yup from 'yup';
+import { updateTransaction } from '../../redux/reducer/transactionSlice';
+import { useDispatch } from 'react-redux';
 
-function TransactionForm({ details, setEdit }) {
-  const date = new Date(details.transaction_date).toLocaleDateString('fr-CA');
+function TransactionForm({ currentTransation, setEdit, close }) {
+  const dispatch = useDispatch();
+
+  const date = new Date(currentTransation.transaction_date).toLocaleDateString(
+    'fr-CA'
+  );
   const validationSchema = yup.object().shape({
     invoice_no: yup
       .string()
@@ -50,12 +56,12 @@ function TransactionForm({ details, setEdit }) {
   });
 
   const handleSave = () => {
-    // dispatch(userRegister(formik.values));
+    dispatch(updateTransaction(formik.values));
     handleClose();
   };
 
   const formik = useFormik({
-    initialValues: { ...details, transaction_date: date },
+    initialValues: { ...currentTransation, transaction_date: date },
     validationSchema,
     onSubmit: handleSave,
     validateOnChange: false,
@@ -65,7 +71,7 @@ function TransactionForm({ details, setEdit }) {
   const handleClose = () => {
     formik.resetForm();
     setEdit(false);
-    // dispatch(setDialougOpen());
+    close();
   };
 
   useEffect(() => {
@@ -107,7 +113,7 @@ function TransactionForm({ details, setEdit }) {
         <div className='flex'>
           <FormControl sx={{ m: 2, ml: 0, flex: 2 }}>
             <TextField
-              label='Amount'
+              label='Amount (INR)'
               helperText={formik.errors.amount}
               error={!!formik.errors.amount}
               fullWidth
